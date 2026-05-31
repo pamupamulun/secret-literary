@@ -166,6 +166,13 @@ html, body {
   padding: 0;
   height: 100%;
   position: relative;
+  min-height: 100vh;
+　display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 .full-width-img {
